@@ -1,0 +1,69 @@
+/* Viết code css trong file của nợ này */
+/* Chọn tất cả thẻ trong trang web */
+h1 {
+    color: red;
+}
+
+p{
+    color: green
+}
+/*chọn thẻ nào mà có id="special-heading" */ 
+
+#special-heading {
+    color: orange;
+}
+
+.text-blue{
+    color: blue;
+}
+
+/* (0 ,0 ,0) */
+*{
+    color: chocolate;
+}
+
+/* (0 , 0 , 1) */
+div{
+    color: blueviolet;
+}
+
+/* (0 , 1 , 0) */
+.text-brown{
+    color: brown;
+}
+
+/* (1 , 0 , 0) */
+#my-tao{
+    color: pink;
+}
+
+
+#test-text{
+    font-size: medium; /*cỡ chữ , số + px */
+    font-style: italic; /*kiểu chữ */
+    text-decoration: line-through; /*trang trí cho chữ */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase; /*biến đổi chữ */
+    
+    
+}
+
+/* những thuộc tính - giá trị => định dạng khối nội dung ( box model )*/
+
+#my-box{
+    background-color: pink;
+    width: fit-content;
+
+    border: 10px solid green; /* bảng có màu có viền */
+    border-radius: 10px; /*bo tròn viền*/
+
+    padding: 20px; /*khoảng cách từ viền bên trái đến đoạn văn,và ảnh hưởng đến kích thước khối  */
+
+
+}
+
+.b{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

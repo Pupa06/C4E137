@@ -5,38 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi Chào Các Bạn</title>
+    <link rel="stylesheet" href="./add.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <h1>Hello,Một chút tóm tắt về mình</h1>
-    <h2>Mình là: Anh Duy</h2>
-    <img width="70" src="./DSC_7870.JPG">
+    <div>
+        <h1 class="my-do">Hello,Một chút tóm tắt về mình</h1>
+        <h2 class="my-dodam"><i class="fa-solid fa-user"></i>: Anh Duy</h2>
+        <img width="70" src="./DSC_7870.JPG">
+        <hr>
+    </div>
+
+    <div class="chu-dam">
+        <h3 class="my-dodam">Sở thích <i class="fa-regular fa-thumbs-up"></i></h3>
+        <ul>
+            <li>Đọc sách</li> 
+            <li>Tập Gym</li>
+            <li>Nghe nhạc</li>
+
+        </ul>
+
+    </div>
+    <div class="chu-dam">
+        <h3 class="my-dodam">Kinh nghiệm <i class="fa-regular fa-thumbs-up"></i></h3>
+        <ul>
+            <li>Nghe hiểu,nói tiếng Nhật:<i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></li>
+            <li>Kĩ năng quảng cáo FB,SEO:<i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i> </li>
+        </ul>
+    </div>
     <hr>
-    
-    <h3>Sở thích</h3>
-    <li>Đọc sách</li>
-    <li>Nghe nhạc</li>
-    <li>Tập GYM</li>
-    <h3>Kinh nghiệm</h3>
-    <li>Nghe hiểu,nói tiếng Nhật</li>
-    <li>Kĩ năng về quảng cáo FB,SEO</li>
-    <hr>
-    <a href="https://www.facebook.com/pipi0406">Contact me</a>
+    <a href="https://www.facebook.com/pipi0406">Contact me <i class="fa-brands fa-facebook"></i></a>
 
     <form>
-        <h3>Hãy để lại cho tôi lời nhắn khi đọc thông tin trên:</h3>
+        <h3 class="my-dodam">Hãy để lại cho tôi lời nhắn khi đọc thông tin trên:</h3>
         <p>
-            <b>Họ và tên:</b>
+            <b class="my-donhat">Họ và tên:</b>
             <input type="text" placeholder="Tên mình là">
         </p>
         <p>
-            <b>Gmail:</b>
+            <b class="my-donhat">Gmail:</b>
             <input type="email" placeholder="abc123@gmail.com">
         </p>
         <p>
-            <b>Giới thiệu ngắn gọn</b>
+            <b class="my-donhat">Giới thiệu ngắn gọn</b>
             <textarea cols="20" rows="5"></textarea>
         </p>
-        <button>Gửi Tin Nhắn</button>
+        <button class="my-do">Gửi Tin Nhắn</button>
     </form>
 </body>
+
 </html>
