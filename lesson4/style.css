@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.conten {
+    position: relative;
+    padding: 70px;
+
+}
+
+.left {
+    background-color: #79cce8;
+    width: 40%;
+    height: 510px;
+    left: 100px;
+    position: absolute;
+    padding: 20px;
+}
+
+.right {
+    background-color: #ced6e0;
+    width: 40%;
+    height: 460px;
+    position: absolute;
+    right: 100px;
+    top: 95px;
+}
+
+.block1 {
+    background-color: #e8d6a1;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+.block2 {
+    background-color: #efb1bb;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    font-weight: 500;
+    line-height: 2;
+
+}
+
+.block3 {
+    background-color: #efb1bb;
+    margin-top: 15px;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+.block4 {
+    background-color: #1e90ff;
+    margin-top: 15px;
+    padding: 5px 10px;
+    display: inline-block;
+    color: white;
+    border-radius: 5px;
+    font-weight: 500;
+
+}
+
+.layer{
+    background-color: #F8EFBA;
+    padding: 30px;
+    display: inline-block;
+    position: relative;
+    top: 180px;
+    left: 38%;
+
+}
+
+.layer1{
+    background-color: #27cb37;
+    display: inline-block;
+    position: relative;
+    padding: 40px 70px;
+    top: 110px;
+    right: 22%;
+}
+
+.layer2{
+    background-color: #037107;
+    display: inline-block;
+    padding: 40px 68px;
+    position: relative;
+    top: 25px;
+    right: 16%;
+
+}
+
+.layer3{
+    background-color: #4b7bec;
+    display: inline-block;
+    position: relative;
+    padding: 40px 70px;
+    top: 10px;
+    left: 70%;
+}
+
+.layer4{
+    background-color: #651634;
+    display: inline-block;
+    padding: 40px 70px;
+    position: relative;
+    top: 165px;
+    left: 43%;
+    
+}
+
+.layer5{
+    background-color: #bb1263;
+    display: inline-block;
+    padding: 40px 70px;
+    position: relative;
+    top: 240px;
+    right: 17%;
+}
+
+.layer6{
+    background-color: #0652DD;
+    display: inline-block;
+    padding: 40px 70px;
+    position: relative;
+    top: 70px; 
+    left: 4%;
+
+}
