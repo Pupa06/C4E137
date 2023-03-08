@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block {
+    position: relative;
+    padding: 2px;
+    background-color: rgb(160, 142, 142);
+    
+}
+.font{
+font-size: 50px;
+}
+.left {
+    background-color: #79cce8;
+    width: 100px;
+    height: 300px;
+    left: 200px;
+    position: absolute;
+    padding: 50px;
+    top: 180px;
+    border-radius: 20px;
+}
+
+.right {
+    background-color: #ced6e0;
+    width: 40%;
+    height: 460px;
+    position: absolute;
+    right: 100px;
+    top: 180px;
+}
+
+.left>p{
+    background-color: #ffeaa7;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+

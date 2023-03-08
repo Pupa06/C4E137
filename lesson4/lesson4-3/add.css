@@ -1,0 +1,77 @@
+.contenter {
+    position: absolute;
+    background-color: rgb(144, 198, 230);
+    height: 250px;
+    width: 500px;
+    left: 20%;
+    top: 20px
+}
+
+.block1 {
+    background-color: rgb(212, 137, 137);
+    position: absolute;
+    font-size: 17px;
+    top: 5px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.block2 {
+    background-color: rgb(168, 32, 78);
+    position: absolute;
+    padding: 10px;
+    left: 18px;
+    top: 170px;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+
+
+}
+
+.block3 {
+    background-color: rgb(53, 129, 228);
+    position: absolute;
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+    top: 170px;
+    left: 130px;
+
+}
+a[data-tooltip]{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+a[data-tooltip]::before{
+    content: attr(data-tooltip);
+    position: absolute;
+    background: #333;
+    color: aliceblue;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    bottom: 50px;
+    right:-35px ;
+    display: none;
+}
+a[data-tooltip]::after{
+    position: absolute;
+    content: "" ;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 20px solid #333;
+    bottom: 30px;
+    left: 20px;
+    display: none;
+}
+a[data-tooltip]:hover::before,
+a[data-tooltip]:hover::after{
+    display: block;
+}
