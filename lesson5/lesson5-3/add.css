@@ -30,7 +30,7 @@
 .tw-header {
     align-items: center;
     display: flex;
-    line-height: 0.2;
+    line-height: 1;
     text-decoration: none;
 }
 
@@ -52,7 +52,7 @@
 .chris-sev {
     color: #7a7a7a;
     display: block;
-    font-size: .875em;
+    font-size: 0.875em;
 }
 
 .tw-content {
