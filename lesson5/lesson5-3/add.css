@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.tw-list {
+    display: grid;
+    grid-template-columns: 600px 600px 600px;
+
+}
+
+.bd-tw {
+    background-color: #fafafa;
+    border-radius: 6px;
+    font-size: 1em;
+    padding: 1.25em;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.header {
+    align-items: stretch;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.tw-header {
+    align-items: center;
+    display: flex;
+    line-height: 0.2;
+    text-decoration: none;
+}
+
+.images {
+    border-radius: 50px;
+    display: block;
+    height: 2.25em;
+    width: 2.25em;
+
+}
+
+.chris {
+    color: #363636;
+    display: block;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.chris-sev {
+    color: #7a7a7a;
+    display: block;
+    font-size: .875em;
+}
+
+.tw-content {
+    color: #363636;
+    font-size: 1em;
+    line-height: 1.4;
+    margin-top: 1em;
+}
+
+.time {
+    font-size: .875em;
+    line-height: 1.4;
+    margin-top: 0.25em;
+}
+
+.time a {
+    color: #7a7a7a;
+    text-decoration: none;
+}
+
+.icon {
+    align-items: center;
+    color: #7a7a7a;
+    display: flex;
+    height: 1.25em;
+    min-width: 1.25em;
+}
+
+.fa-regular.fa-comment {
+    margin-right: 1.25em;
+}
+
+.fa-regular.fa-heart {
+    margin-left: 10px;
+}
