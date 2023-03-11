@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenter{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.title-my{
+    font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.title{
+    color: #363636;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+.title-bl{
+    margin-top: 1.5em;
+    color: #363636;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.title-1{
+    margin-top: 0.5rem;
+
+}
+.title-2{ 
+    margin-top: 0.5rem;
+    display: flex;
+    
+    
+
+}
+.title-view{
+    font-size: .875rem;
+    color: #b5b5b5;
+    margin-top: 0.5rem;
+    
+}
+.fas.fa-star{
+    color: #ffd257;
+    font-size:medium;
+}
+.fas.fa-heart{
+    color: #f14668;
+    font-size:medium;
+}
+.fab.fa-patreon{
+    color: #f96854;
+    font-size:medium;
+}
+.fas.fa-plug{
+    color: #3e8ed0;
+    font-size:medium;
+}
+.fas.fa-bookmark{
+    color: #abf47c;
+    font-size:medium;
+    margin-top: 15px;
+    margin-right: 5px;
+
+}
+.fas.fa-rss{
+    color: #f26522;
+    font-size:medium;
+}
+.fas.fa-medal{
+    color: #00d1b2;
+    font-size:medium;
+}
+.fas.fa-rocket{
+    color: #48c78e;
+    font-size:medium;
+}
+.fas.fa-certificate{
+    color: #ffe08a;
+    font-size:medium;
+}
+.fas.fa-exchange-alt{
+    color: #6f5499;
+    font-size:medium;
+}
+.title-bl2{
+    margin-top: 2.5em;
+    flex-direction: row-reverse;
+    display: flex;
+    color: #b5b5b5;
+}
+.title-3{
+    margin-top: 0.5rem;
+    flex-direction: row-reverse;
+    display: flex;
+    margin-left: 1rem;
+    text-align: right;
+    color: #b5b5b5;
+}
+
+

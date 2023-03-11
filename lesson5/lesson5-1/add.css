@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.bulma-logo {
+    display: flex;
+}
+
+.logo {
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.fa-solid.fa-book {
+    color: #00d1b2;
+}
+
+.fa-solid.fa-play {
+    color: #48c78e !;
+}
+
+.fa-solid.fa-star {
+    color: #ffd257;
+}
+
+.fa-solid.fa-heart {
+    color: #f14668;
+}
+
+.git-logo {
+    display: flex;
+    padding: 15px 20px;
+    justify-content: flex-end;
+    margin-left: 10%;
+
+}
+
+.fa-brands.fa-github-alt {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.fa-brands.fa-twitter {
+    font-size: 20px;
+    margin-right: 20px;
+    color: #55acee;
+}
+.download{
+    background-color: #00d1b2;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.thumbs{
+    background-color: #fdedf6;
+    color: #ea4aaa;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.search{
+    background-color: #f5f5f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.fa-solid.fa-magnifying-glass{
+    color: #00d1b2;
+}
