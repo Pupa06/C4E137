@@ -17,13 +17,17 @@
 
 .row {
     display: flex;
-
+    margin-left: 10px;
+}
+.row-1{
+    display: flex;
+    margin-top: 5px;
 }
 
 .brand {
     color: white;
     display: flex;
-    margin-left: 77%;
+    margin-left: 70%;
     line-height: 0.01;
 }
 
@@ -34,7 +38,7 @@
 }
 
 .cl {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .logo-wrap {

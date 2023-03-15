@@ -1,11 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
 .flex {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .bulma-logo {
@@ -47,9 +49,8 @@
 
 .git-logo {
     display: flex;
-    padding: 15px 20px;
-    justify-content: flex-end;
-    margin-left: 10%;
+    padding: 15px 0px;
+    align-items: center;
 
 }
 
@@ -63,25 +64,46 @@
     margin-right: 20px;
     color: #55acee;
 }
-.download{
+
+.download {
     background-color: #00d1b2;
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
     margin-right: 10px;
 }
-.thumbs{
+
+.thumbs {
     background-color: #fdedf6;
     color: #ea4aaa;
     padding: 5px 10px;
     border-radius: 5px;
     margin-right: 10px;
 }
-.search{
-    background-color: #f5f5f5;
+
+.search {
+
     padding: 5px 10px;
     border-radius: 5px;
 }
-.fa-solid.fa-magnifying-glass{
+
+.fa-solid.fa-magnifying-glass {
     color: #00d1b2;
+}
+
+.bnb {
+    border: 0px;
+}
+
+.icon-search {
+    display: none;
+}
+
+@media screen and (max-width:820px) {
+    .icon-search {
+        display: block;
+    }
+    .search{
+        display: none;
+    }
 }
