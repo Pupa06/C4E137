@@ -186,13 +186,13 @@
 // let h = prompt("Nhập vào cân nặng của bạn (kg): ");
 // console.log(height);
 // let bmi = h/(height*height);
-// // if (bmi < 18.5) {
-// //   console.log("Nhẹ cân");
-// // } else if (bmi < 23) {
-// //   console.log("Bình thường");
-// // } else if (bmi < 25) {
-// //   console.log("Thừa cân");
-// // } else {
-// //   console.log("Béo phì");
-// // }
+// if (bmi < 18.5) {
+//   console.log("Nhẹ cân");
+// } else if (bmi < 23) {
+//   console.log("Bình thường");
+// } else if (bmi < 25) {
+//   console.log("Thừa cân");
+// } else {
+//   console.log("Béo phì");
+// }
 
