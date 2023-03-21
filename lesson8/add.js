@@ -46,11 +46,14 @@
 //6
 // let n = prompt("Nhập vào số n:");
 // let s = 0;
-
-// for (let i = 1; i <= n; i++) {
-//   s += 1 / (i * (i + 1));
+// if (n < 2) {
+//     console.error('Vui lòng nhập lại!');
 // }
-
+// else {
+//     for (let i = 1; i <= n; i++) {
+//         s += 1 / (i * (i + 1));
+//     }
+// }
 // console.log(`Giá trị biểu thức là: ${s}`);
 
 //7
@@ -157,7 +160,7 @@
 //   for (let j = 1; j <= 3; j++) {
 //     row += '* ';
 //   }
-//   row += "\n" 
+//   row += "\n"
 // }
 // console.log(row);
 
