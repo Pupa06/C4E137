@@ -127,7 +127,7 @@
 // let count = 0;
 // console.log(correct);
 
-// while (count < 5) {
+// while (count <= 5) {
 //   answer = Number(prompt("Nhập số bạn đoán từ 1 đến 20:"));
 //   if (answer === correct) {
 //     console.log("Đoán đúng");
@@ -182,10 +182,10 @@
 // }
 
 //17
-// let w = prompt("Nhập vào chiều cao của bạn (cm): ");
-// let h = prompt("Nhập vào cân nặng của bạn (kg): ");
-// console.log(height);
-// let bmi = h/(height*height);
+// let h = prompt("Nhập vào chiều cao của bạn (cm): ");
+// let w = prompt("Nhập vào cân nặng của bạn (kg): ");
+// console.log(w);
+// let bmi = w/(h*h);
 // if (bmi < 18.5) {
 //   console.log("Nhẹ cân");
 // } else if (bmi < 23) {
@@ -195,4 +195,5 @@
 // } else {
 //   console.log("Béo phì");
 // }
+
 
