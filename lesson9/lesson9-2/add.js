@@ -87,10 +87,20 @@
 // }
 
 
-//1.8 Nhập vào số n cho đến khi n là 1 số trong mảng s.
+//1.8.1 Nhập vào số n cho đến khi n là 1 số trong mảng s.
 // const s = [3, 7, 12, 9, 16];
 // let n = prompt("Nhập vào số n:");
 // while (!s.includes(Number(n))) {
+//   n = prompt("Nhập lại số n:");
+// }
+// console.log(`Số ${n} là một số trong mảng s`);
+
+//1.8.2 random
+// let n = prompt("Nhập vào số n:");
+// let str1 = prompt("Nhập vào dãy số (số viết liền nhau): ");
+// let numbers = str1.split("");
+// console.log(numbers);
+// while (!str1.includes(Number(n))) {
 //   n = prompt("Nhập lại số n:");
 // }
 // console.log(`Số ${n} là một số trong mảng s`);
