@@ -135,7 +135,7 @@
 // }
 
 
-//2.3 Tạo mảng mới newS gồm các phần tử có giá trị là 3 ký tự đầu tiên của từng phần tử trong s.
+// 2.3 Tạo mảng mới newS gồm các phần tử có giá trị là 3 ký tự đầu tiên của từng phần tử trong s.
 // let s = ['abcde', 'fghij', 'klmno'];
 // let newS = s.map(str => str.substr(0, 3));
 // console.log(newS);
