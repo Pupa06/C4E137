@@ -1,0 +1,28 @@
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+div {
+    display: flex;
+    margin-bottom: 2px;
+    align-items: center;
+}
+
+label {
+    width: 100px;
+}
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #ec062d;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+} 

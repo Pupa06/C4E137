@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.item {
+    height: 100px;
+}
+
+.active {
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+#textInp {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btn-add {
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
