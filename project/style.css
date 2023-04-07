@@ -1,0 +1,151 @@
+.content-1 {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.header-produst {
+    font-size: 40px;
+    line-height: 44px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, .85);
+    text-align: center;
+    font-family: "Open Sans", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", "Hiragino Sans GB", "WenQuanYi Micro Hei", Arial, sans-serif;
+}
+
+.banner {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Open Sans", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", "Hiragino Sans GB", "WenQuanYi Micro Hei", Arial, sans-serif;
+}
+
+.text-box a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.products-1 {
+    position: relative;
+}
+
+.text-box {
+    color: #fff;
+    padding: 0 48px;
+    position: absolute;
+    top: 150px;
+    width: 292px;
+    text-align: center
+}
+
+.content-2 {
+    display: flex;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.single-body-item-text {
+    font-family: "Open Sans", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", "Hiragino Sans GB", "WenQuanYi Micro Hei", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.body-item-small-heading-v2 {
+    max-width: 505px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro';
+    color: #040507;
+    font-size: 38px;
+    line-height: 44px;
+}
+
+.single-body-items-paragraph {
+    max-width: 505px;
+    margin-bottom: 40px;
+    font-family: 'Source Sans Pro';
+    color: #5c6877;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 600;
+}
+
+.wp-features-items-holder-v2 {
+    display: flex;
+    margin-bottom: 23px;
+}
+
+.check-mark-small-image {
+    width: 30px;
+    height: 30px;
+    margin-right: 0;
+    margin-left: 0;
+    align-self: flex-start;
+}
+
+.wp-features-text-holder-v2 {
+    margin-top: 7px;
+    margin-left: 18px;
+}
+
+.wp-features-heading-v2 {
+    max-width: 200px;
+    margin-top: 0;
+    color: #2c3e50;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.wp-features-paragraph-v2 {
+    max-width: 457px;
+    margin-bottom: 0;
+    color: #718093;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: .01em;
+}
+
+.learn-more-start-trial {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.learn-more-new-body-button {
+    padding: 17px 50px 18px;
+    flex: 0 auto;
+    border: 1px solid #695eee;
+    border-radius: 8px;
+    color: #695eee;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.start-trial-new-body-button {
+    padding: 17px 30px 18px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #695eee;
+    color: #fff;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.wp-features-single-item-img {
+    width: 695px;
+    margin-top: 100px;
+    margin-right: 0;
+    margin-left: 0;
+}
